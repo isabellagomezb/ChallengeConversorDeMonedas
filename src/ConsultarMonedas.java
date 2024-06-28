@@ -25,7 +25,7 @@ public class ConsultarMonedas {
             return new Gson().fromJson(response.body(), Moneda.class);
 
         } catch (Exception e) {
-            throw new RuntimeException("No se encontró la Moneda solicitada");
+            throw new RuntimeException("No se encontró la Moneda que slicitó");
         }
     }
 }
